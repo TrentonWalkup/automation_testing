@@ -1,0 +1,26 @@
+{
+  "name": "automation_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha tests/*.js --timeout 100000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrentonWalkup/automation_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrentonWalkup/automation_testing/issues"
+  },
+  "homepage": "https://github.com/TrentonWalkup/automation_testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^76.0.0",
+    "mocha": "^6.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
